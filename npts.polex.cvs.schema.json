@@ -1,0 +1,3864 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "POLE Exhange constrained value list enumerations",
+	"additionalProperties": false,
+	"definitions": {
+		"npts:ActionMarkerActionList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ActionMarkerConditionsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ActionMarkerContactDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ActionMarkerValidFromDateTime": {
+			"type": "string"
+		},
+		"npts:ActionMarkerValidToDateTime": {
+			"type": "string"
+		},
+		"npts:AddressLineType": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:AddressText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:AggravatingFactorFactorList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:AmmunitionAuthorisationAmmunitionCalibreList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:AmmunitionAuthorisationAmmunitionList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:AmmunitionAuthorisationQuantityToAcquireValue": {
+			"type": "number"
+		},
+		"npts:AmmunitionAuthorisationQuantityToPossessValue": {
+			"type": "number"
+		},
+		"npts:AmmunitionAuthorisiationAmmunitionCalibreList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:AmmunitionAuthorisiationAmmunitionList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:AmmunitionAuthorisiationQuantityToAcquireValue": {
+			"type": "number"
+		},
+		"npts:AmmunitionAuthorisiationQuantityToPossessValue": {
+			"type": "number"
+		},
+		"npts:AnimalSpeciesList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ApplicationReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ArrestDetentionEffectedDateTime": {
+			"type": "string"
+		},
+		"npts:ArrestDetentionReasonList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ArrestDetentionReasonText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ArrestSummonsPYOInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ArrestSummonsReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ArrestSummonsrReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:AssociationDescriptionText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:AssociationEffectiveFromDate": {
+			"type": "string"
+		},
+		"npts:AssociationEffectiveToDate": {
+			"type": "string"
+		},
+		"npts:AssociationProtectedRecordInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:AssociationRelevantDate": {
+			"type": "string"
+		},
+		"npts:AttachmentAttachmentTitleText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:AttachmentAttachmentTypeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:AttachmentFileNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:AttachmentPhysicalFormatList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:AttachmentReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:BailRefusalReasonList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:BatchHeaderDigitalSignatureText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:BatchHeaderIssuedDateTime": {
+			"type": "string"
+		},
+		"npts:BatchHeaderPublicationPointList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:BatchHeaderPublisherText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:BatchHeaderRecipientText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:BatchHeaderTransactionList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CaseReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CertificateReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ChildAbuseInvestigationExpectedBirthDate": {
+			"type": "string"
+		},
+		"npts:ChildAbuseInvestigationUnbornChildInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ChildAbuseReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ConveyanceDVLAManufacturerModelNameList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ConveyanceDVLAManufacturerNameList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ConveyanceDrivePositionList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ConveyanceEngineFuelType": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ConveyanceFirstRegistrationDate": {
+			"type": "string"
+		},
+		"npts:ConveyanceTotalDoorsValue": {
+			"type": "number"
+		},
+		"npts:ConveyanceVehicleBodyGroupList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ConveyanceVehicleBodyShapeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ConveyanceWrittenOffInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CovertFlagLevelList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CrimeAggravatingFactorFactorList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CrimeAllocationStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CrimeCategoryHomeOfficeOffenceList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CrimeCategoryHomeOfficeStatsInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CrimeCategoryPrimaryInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CrimeClearUpMethodDateTime": {
+			"type": "string"
+		},
+		"npts:CrimeClearUpMethodList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CrimeCrimeRelatedIncidentInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CrimeDetectionStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CrimeEarliestCommitedDateTime": {
+			"type": "string"
+		},
+		"npts:CrimeLatestCommitedDateTime": {
+			"type": "string"
+		},
+		"npts:CrimeNoCrimeReasonList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CrimeReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CrimeVictimIsCrownInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CustodyDisposalAppearanceCourtList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CustodyDisposalDisposalDateTime": {
+			"type": "string"
+		},
+		"npts:CustodyDisposalMethodList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CustodyRecordFacilityForceAgencyList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CustodyRecordFacilityNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CustodyRecordInterpreterRequiredInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CustodyReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:CustoyDisposalAppearanceDateTime": {
+			"type": "string"
+		},
+		"npts:DNAProcessIssueCreatedDateTime": {
+			"type": "string"
+		},
+		"npts:DNAProcessIssueErrorList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DNAProcessIssueOriginatingAgencyList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DNAProcessReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DNAProcessSampleBarcodeNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DNAProcessSampleDateTime": {
+			"type": "string"
+		},
+		"npts:DNAProcessSampleList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DNAProcessStatusAnalysisMethodList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DNAProcessStatusLaboratoryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DNAProcessStatusSampleLocationForceAgencyList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DNAProcessStatusStatusDateTime": {
+			"type": "string"
+		},
+		"npts:DNAProcessStatusStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DepartmentText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DetainedForCourtAppearanceCourtList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DetainedForCourtAppearanceDateTime": {
+			"type": "string"
+		},
+		"npts:DetaineeRiskAssessmentPurposeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DisposalReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DomesticAbuseReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DrugsTestProcessRequestedDateTime": {
+			"type": "string"
+		},
+		"npts:DrugsTestProcessResultList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DrugsTestProcessResultsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:DrugsTestTakenDateTime": {
+			"type": "string"
+		},
+		"npts:ElementName": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ElementValueDate": {
+			"type": "string"
+		},
+		"npts:ElementValueNumber": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ElementValueText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:EmailAddressText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:EngineFuelList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:EnginePowerOutputValue": {
+			"type": "number"
+		},
+		"npts:ExercisedRightsLegalRepresentativeDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ExplosiveAuthorisationExplosiveList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FacialImageProcessForceAgencyList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FacialImageProcessTakenDateTime": {
+			"type": "string"
+		},
+		"npts:FacialImageReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FamilyNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FingerprintsProcessMethodList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FingerprintsProcessStatusFingerprintBureauList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FingerprintsProcessStatusStatusDateTime": {
+			"type": "string"
+		},
+		"npts:FingerprintsProcessStatusStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FingerprintsProcessTakenDateTime": {
+			"type": "string"
+		},
+		"npts:FirearmsCertificateApplicationApplicationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateApplicationCertificateList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateApplicationForceAgencyList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateApplicationStatusRefusalReasonText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateApplicationStatusStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateCertificateList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateConditionText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateExplosivesAuthorisationConstructionList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateExplosivesAuthorisationStorageList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateExplosivesAuthorisationWeightText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateFirearmAuthorisationCalibreList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateFirearmAuthorisationTypeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateForceAgencyList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateStatusRevokedReasonList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateStatusStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FirearmsCertificateValidFromDate": {
+			"type": "string"
+		},
+		"npts:FirearmsCertificateValidToDate": {
+			"type": "string"
+		},
+		"npts:FirearmsCertirficateConditionText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FlagAuthoriserText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FlagCircumstanceCircumstanceList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FlagCovertInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FlagExpiryDate": {
+			"type": "string"
+		},
+		"npts:FlagId": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FlagJustificationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FlagJustificationText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FlagNotificationPriorityList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FlagReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FlagReferenceText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FlagRelevantFromDate": {
+			"type": "string"
+		},
+		"npts:FlagReviewDueDate": {
+			"type": "string"
+		},
+		"npts:FlagStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:FootwearImpressionProcessTakenDateTime": {
+			"type": "string"
+		},
+		"npts:FootwearImpressionReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ForceRecordReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ForceURN": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ForceVersionPrimaryRecordEndDateTime": {
+			"type": "string"
+		},
+		"npts:ForceVersionPrimaryRecordMethodList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ForceVersionPrimaryRecordStartDateTime": {
+			"type": "string"
+		},
+		"npts:FromDateTime": {
+			"type": "string"
+		},
+		"npts:GeographicCoordinateLatitudeText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:GeographicCoordinateLongitudeText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:GivenNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:HomeOfficeCategoryHomeOfficeOffenceList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:HomeOfficeCategoryHomeOfficeStatsInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InformationMarkerInformationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InformationReportHeadingText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InformationReportInformationEvaluationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InformationReportKeywordKeywordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InformationReportLogDetailsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InformationReportReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InformationReportReportedDateTime": {
+			"type": "string"
+		},
+		"npts:InformationReportRiskAssessmentInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InformationReportSourceEvaluationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InterestMarkerContactDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InterestMarkerInterestList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InternationalPostCodeType": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InvestigationFinalisationCommentsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InvestigationInterpolReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InvestigationLogEndDateTime": {
+			"type": "string"
+		},
+		"npts:InvestigationLogEntryCategoryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InvestigationLogEntryEndDateTime": {
+			"type": "string"
+		},
+		"npts:InvestigationLogEntryLogSequenceNumber": {
+			"type": "string"
+		},
+		"npts:InvestigationLogEntryNotesText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InvestigationLogEntryStartDateTime": {
+			"type": "string"
+		},
+		"npts:InvestigationLogNotesText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InvestigationLogStartDateTime": {
+			"type": "string"
+		},
+		"npts:InvestigationReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InvestigationReviewDate": {
+			"type": "string"
+		},
+		"npts:InvestigationStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:InvolvementList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LinkedOrganisedCrimeGroupCollaborationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LinkedOrganisedCrimeGroupDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LinkedOrganisedCrimeGroupStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandAndPropertyUnitClassificationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandAndPropertyUnitCustodianList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandAndPropertyUnitEndDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandAndPropertyUnitEntryDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandAndPropertyUnitLastUpdateDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandAndPropertyUnitOrganisationText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandAndPropertyUnitRelativePositionalAccuracyList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandAndPropertyUnitStartDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandandPropertyUnitClassificationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandandPropertyUnitCustodianList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandandPropertyUnitEndDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandandPropertyUnitEntryDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandandPropertyUnitLastUpdateDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandandPropertyUnitOrganisationText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandandPropertyUnitRelativePositionalAccuracyList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666BasicLandandPropertyUnitStartDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666CoordinateXCoordinateValue": {
+			"type": "number"
+		},
+		"npts:LocationBS7666CoordinateYCoordinateValue": {
+			"type": "number"
+		},
+		"npts:LocationBS7666ExtensionPolygonClassificationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666ExtensionPolygonEndDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666ExtensionPolygonEntryDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666ExtensionPolygonLastUpdateDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666ExtensionPolygonRelativePositionalAccuracyList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666ExtensionPolygonStartDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666LandAndPropertyIdentifierEndDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666LandAndPropertyIdentifierLPIKeyText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666LandAndPropertyIdentifierLastUpdateDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666LandAndPropertyIdentifierLevelText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666LandAndPropertyIdentifierOfficalFlagInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666LandAndPropertyIdentifierStartDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666LandandPropertyIdentifierEndDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666LandandPropertyIdentifierLPIKeyText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666LandandPropertyIdentifierLastUpdateDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666LandandPropertyIdentifierLevelText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666LandandPropertyIdentifierOfficalFlagInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666LandandPropertyIdentifierStartDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666LogicalStatusBLPUStateDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666LogicalStatusBLPUStateList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666PolygonPolygonList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666PostCodePostcodeText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666PostTownPostTownText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666PrimaryAddressableObjectNameDescriptionText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666PrimaryAddressableObjectNameEndNumberText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666PrimaryAddressableObjectNameStartNumberText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666ProvenanceAnnotationText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666ProvenanceEndDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666ProvenanceEntryDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666ProvenanceLastUpdatedDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666ProvenanceProvenanceCodeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666ProvenanceStartDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666SecondaryAddressableObjectNameDescriptionText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666SecondaryAddressableObjectNameEndNumberText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666SecondaryAddressableObjectNameStartNumberText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666StreetCrossReferencesCrossReferenceTypeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666StreetCrossReferencesEntryDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666StreetDescriptorAdministrativeAreaText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666StreetDescriptorLocalityText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666StreetDescriptorStreetDescriptorText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666StreetDescriptorTownText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666StreetInformationLastUpdateDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666StreetInformationRecordEntryDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666StreetInformationRecordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666StreetInformationSWAOrgRefNamingValue": {
+			"type": "number"
+		},
+		"npts:LocationBS7666StreetInformationStreetStartDate": {
+			"type": "string"
+		},
+		"npts:LocationBS7666StreetInformationStreetToleranceValue": {
+			"type": "number"
+		},
+		"npts:LocationBS7666StreetInformationStreetVersionValue": {
+			"type": "number"
+		},
+		"npts:LocationBS7666StreetUniqueStreetReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationBS7666StreetVersionNumber": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationCrimeInvolvedInvolvementList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationCrimeSceneNotesText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationFirearmsCertificateSecurityAddressRoleDetailAlarmList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationFirearmsCertificateSecurityAddressRoleDetailCapacityQuantity": {
+			"maximum": 2147483647,
+			"minimum": -2147483648,
+			"type": "integer"
+		},
+		"npts:LocationFirearmsCertificateSecurityAddressRoleDetailCheckedDate": {
+			"type": "string"
+		},
+		"npts:LocationFirearmsCertificateSecurityAddressRoleDetailCheckedText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationFirearmsCertificateSecurityAddressRoleDetailLocationText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationFirearmsCertificateSecurityAddressRoleDetailPremisesList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationFirearmsCertificateSecurityAddressRoleDetailStorageList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationIdentityNumberIdentityNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationNonStandardInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationPAFLocalityDependentLocalityText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationPAFLocalityDoubleDependentLocalityText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationPAFLocalityPostTownText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationPAFOrganisationDepartmentNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationPAFOrganisationOrganisationNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationPAFPOBoxText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationPAFPostcodePostCodeText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationPAFPremiseBuildingNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationPAFPremiseBuildingNumberText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationPAFPremiseSubBuildingNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationPAFThoroughfareDependentThoroughfareDescriptorText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationPAFThoroughfareDependentThoroughfareNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationPAFThoroughfareThoroughfareDescriptorText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationPAFThoroughfareThoroughfareNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationProvenanceText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:LocationText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MarkedForDeletionInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MarkerAuthoriserText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MarkerExpiryDate": {
+			"type": "string"
+		},
+		"npts:MarkerJustificationText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MarkerNotesText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MarkerPurposeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MarkerReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MarkerRelevantFromDate": {
+			"type": "string"
+		},
+		"npts:MarkerReviewDueDate": {
+			"type": "string"
+		},
+		"npts:MarkerStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MessageHeaderIssuedDateTime": {
+			"type": "string"
+		},
+		"npts:MessageHeaderMessageDateTime": {
+			"type": "string"
+		},
+		"npts:MessageHeaderMessageTransactionList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MessageHeaderPublicationPointList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MoPIReviewAuthorisedByNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MoPIReviewNextReviewDate": {
+			"type": "string"
+		},
+		"npts:MoPIReviewRecordSubjectOfReviewDisposalDate": {
+			"type": "string"
+		},
+		"npts:MoPIReviewRecordSubjectOfReviewMarkedForDisposalInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MoPIReviewReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MoPIReviewReviewDate": {
+			"type": "string"
+		},
+		"npts:MoPIReviewReviewGroupList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MoPIReviewReviewGroupSubCategoryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MoPIReviewReviewTypeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:MoPIReviewReviewingForceAgencyList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ModusOperandiCharacterAssumedKeywordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ModusOperandiDetailsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ModusOperandiEntryMethodKeywordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ModusOperandiEntryPointKeywordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ModusOperandiExitPointKeywordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ModusOperandiInstrumentUsedKeywordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ModusOperandiKeywordKeywordCategoryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ModusOperandiKeywordKeywordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ModusOperandiLocationKeywordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ModusOperandiMeansEmployedKeywordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ModusOperandiPropertyKeywordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ModusOperandiSubKeywordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ModusOperandiTrademarksKeywordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ModusOperandiVictimKeywordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:NLDSUserID": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:NonTravesableInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OCGReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectCategoryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectCharacteristicsAnimalSexList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectCharacteristicsCubicCapacityValue": {
+			"type": "number"
+		},
+		"npts:ObjectCharacteristicsHeightValue": {
+			"type": "number"
+		},
+		"npts:ObjectCharacteristicsLengthValue": {
+			"type": "number"
+		},
+		"npts:ObjectCharacteristicsManufacturerModelNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectCharacteristicsManufacturerModelVariantNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectCharacteristicsManufacturerNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectCharacteristicsMaterialList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectCharacteristicsMonetaryValue": {
+			"type": "number"
+		},
+		"npts:ObjectCharacteristicsMonetaryValueEstimatedInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectCharacteristicsObjectQuantity": {
+			"maximum": 2147483647,
+			"minimum": -2147483648,
+			"type": "integer"
+		},
+		"npts:ObjectCharacteristicsPeriodList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectCharacteristicsPurchaseLocationText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectCharacteristicsShapeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectCharacteristicsVolumeValue": {
+			"type": "number"
+		},
+		"npts:ObjectCharacteristicsWeightValue": {
+			"type": "number"
+		},
+		"npts:ObjectCharacteristicsWidthValue": {
+			"type": "number"
+		},
+		"npts:ObjectColourPrimaryColourList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectColourSecondaryColourList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectCrimeInvolvedCounterfeitInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectCrimeInvolvedInvolvementList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectCrimeInvolvedValuationAmount": {
+			"type": "number"
+		},
+		"npts:ObjectCrimeInvolvedValuationEstimatedInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectDeescriptionText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectDescriptionText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectIdentificationDescriptionText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectIdentificationFeatureList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectIdentityCompanyNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectIdentityIssueNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectIdentityNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectIdentityNumberKnownFalseInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectIdentityNumberNumberList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectIdentityNumberValidFromDate": {
+			"type": "string"
+		},
+		"npts:ObjectIdentityNumberValidToDate": {
+			"type": "string"
+		},
+		"npts:ObjectPositionDescriptionText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectQualifierList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectSpecialInterestSpecialInterestList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ObjectSubCategoryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OffenceACPOCodeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OffenceCJSCodeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OffenceCommittedOnBailInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OffenceCommittedonBailInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OffenceCriminalProsecutionReferenceNumber": {
+			"type": "string"
+		},
+		"npts:OffenceDescriptionText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OffenceEndDateTime": {
+			"type": "string"
+		},
+		"npts:OffenceHomeOfficeStatsList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OffenceLocationSummaryText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OffenceQualifierACPOCodeQualiferList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OffenceQualifierACPOCodeQualifierList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OffenceReference": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OffenceSequenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OffenceStartDateTime": {
+			"type": "string"
+		},
+		"npts:OffenderReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisationChildAbuseInvestigationPartnerAgencyParentalResponsibilityInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisationContactContactNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisationContactContactRoleText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisationCrimeSuspectClearUpMethodList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisationFinancialCircumstancesDescriptionText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisationIdentityNumberIdentityNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisationIdentityNumberNumberList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisationIdentityNumberValidFromDate": {
+			"type": "string"
+		},
+		"npts:OrganisationIdentityNumberValidToDate": {
+			"type": "string"
+		},
+		"npts:OrganisationNameNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisationNameUsageList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisationNotesNotesText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisationObjectInvolvementInvolvementList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisationOrganisationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisationReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupAssetAssessmentOtherDetailsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupAssetAssessmentScaleText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupAssetAssessmentStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupCharacteristicOCGCharacteristicsList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupCommunicationsCommunicationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupCommunicationsDetailsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupCreatedDate": {
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupCriminalityAssessmentAssessmentCrimeTypeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupCriminalityAssessmentFrequencyText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupCriminalityAssessmentKeywordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupCriminalityAssessmentLinkGradingList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupCriminalityAssessmentMainCommodityList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupCriminalityAssessmentMethodList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupCriminalityAssessmentScaleText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupCriminalityGeographicScopeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupCriminalityGeographyAgencyForceCodeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupCriminalityGeographyCountryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupGroupNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupIntelligenceSummaryText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupIntelligenceTimelinessList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupLEAManagementStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupMainEthnicityList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupMainNationalityList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupMembershipSizeText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupOCGMotivationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupOCGTypeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupOrganisationInvolvementDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupOrganisationInvolvementInvolvementList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupReviewedDate": {
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupSpecialismDetailsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupSpecialismSpecialismList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupThreatAssessmentAssessmentDate": {
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupThreatAssessmentReviewerNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupThreatAssessmentScoreText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupThreatAssessmentSignificantFactorsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupThreatLevelAssessmentDate": {
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupThreatLevelScoreText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupThreatLevelSignificantFactorsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupThreatLevelreviewerNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupTransportationDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupTransportationTransportationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupWeaponCategoryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrganisedCrimeGroupWeaponDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:OrgansiationCrimeSuspectEliminationReasonList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PACEBailAnswerDateTime": {
+			"type": "string"
+		},
+		"npts:PACEBailAppearanceLocationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PACEBailAppearanceLocationText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PACEBailCancelledDateTime": {
+			"type": "string"
+		},
+		"npts:PACEBailConditionConditionDetailsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PACEBailConditionDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PACEBailConditionReasonReasonList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PACEBailGrantedDateTime": {
+			"type": "string"
+		},
+		"npts:PACEBailGroundsForImposingConditionsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PACEBailReferenceNumber": {
+			"type": "string"
+		},
+		"npts:PACEBailSuretyOrSecurityTakenInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PNDInboxAddressText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PNDUserID": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PasswordOneText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PasswordTwoText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PeriodInCustodyAppropriateAdultDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PeriodInCustodyDisposalDisposalDateTime": {
+			"type": "string"
+		},
+		"npts:PersonAddressList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBirthDateBirthDate": {
+			"type": "string"
+		},
+		"npts:PersonBirthDateCorroboratedDate": {
+			"type": "string"
+		},
+		"npts:PersonBirthDateCorroborationDate": {
+			"type": "string"
+		},
+		"npts:PersonBirthDateCorroborationLevelList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBirthDateText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBirthPlaceCountryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBirthPlaceLocationText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBodyDescriptionBuildList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBodyDescriptionComplexionList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBodyDescriptionEstimateBirthDateLowerValue": {
+			"type": "number"
+		},
+		"npts:PersonBodyDescriptionEstimatedBirthYearHigherValue": {
+			"type": "number"
+		},
+		"npts:PersonBodyDescriptionEyeLeftColourList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBodyDescriptionEyeRightColourList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBodyDescriptionHandedList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBodyDescriptionHeightHigherValue": {
+			"type": "number"
+		},
+		"npts:PersonBodyDescriptionHeightLowerValue": {
+			"type": "number"
+		},
+		"npts:PersonBodyDescriptionShoeSizeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBodyDescriptionWeightHigherValue": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBodyDescriptionWeightLowerValue": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBodyDistinguishingFeatureBodyPartList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBodyDistinguishingFeatureBodyPositionList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBodyDistinguishingFeatureCorroboratedDate": {
+			"type": "string"
+		},
+		"npts:PersonBodyDistinguishingFeatureCorroborationDate": {
+			"type": "string"
+		},
+		"npts:PersonBodyDistinguishingFeatureDescriptionText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBodyDistinguishingFeatureFeatureList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBodyDistinguishingFeatureKeywordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonBodyDistinguishingFeatureSequenceNumber": {
+			"type": "string"
+		},
+		"npts:PersonBrithDateKnownToBeFalseInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonChildProtectionInvolvementEstimatedDeliveryDate": {
+			"type": "string"
+		},
+		"npts:PersonChildProtectionInvolvementList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonChildProtectionInvolvementPoliceProtectionInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonChildProtectionInvolvementUnbornChildInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCredentialsBirthDate": {
+			"type": "string"
+		},
+		"npts:PersonCredentialsBirthDateCorroborationDate": {
+			"type": "string"
+		},
+		"npts:PersonCredentialsBirthDateCorroborationLevelList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCredentialsBirthDateKnownFalseInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCredentialsBirthMonthLowerValue": {
+			"type": "number"
+		},
+		"npts:PersonCredentialsBirthYearHigherValue": {
+			"type": "number"
+		},
+		"npts:PersonCredentialsBirthYearLowerValue": {
+			"type": "number"
+		},
+		"npts:PersonCredentialsCredentialsVersionNumber": {
+			"type": "string"
+		},
+		"npts:PersonCredentialsDateBirthMonthHigherValue": {
+			"type": "number"
+		},
+		"npts:PersonCredentialsSparseDetailsReasonList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCredentialsSparseDetailsReasonText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCrimeSuspectClearUpMethodList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCrimeSuspectEliminationReasonList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCrimeSuspectIllegalDrugsDealerInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCrimeSuspectIllegalDrugsUseInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCrimeSuspectIntoxicationStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCrimeVictimDrinkDrugLevelList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCrimeVictimHolmesNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCrimeVictimIllegalDrugsDealerInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCrimeVictimIllegalDrugsUseInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCrimeVictimInjurySeverityList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCrimeVictimSexualityList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonCrimeWitnessStatementProvidedInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonDateEstimatedDateType": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonDateEstimatedDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonDateEstimatedFromDate": {
+			"type": "string"
+		},
+		"npts:PersonDateEstimatedToDate": {
+			"type": "string"
+		},
+		"npts:PersonDeathCircumstancesOfDeathText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonDeathCorroboratedDate": {
+			"type": "string"
+		},
+		"npts:PersonDeathCorroboratedStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonDeathCorroborationDate": {
+			"type": "string"
+		},
+		"npts:PersonDeathCorroborationStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonDeathDeathDate": {
+			"type": "string"
+		},
+		"npts:PersonDeathDeathMonthHigherValue": {
+			"type": "number"
+		},
+		"npts:PersonDeathDeathMonthLowerValue": {
+			"type": "number"
+		},
+		"npts:PersonDeathDeathYearHigherValue": {
+			"type": "number"
+		},
+		"npts:PersonDeathDeathYearLowerValue": {
+			"type": "number"
+		},
+		"npts:PersonDisabilityDetailsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonDisabilityDisabilityList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonDomesticAbuseInvolvementList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonEthnicAppearance6PointCodeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonEthnicAppearanceSixPointList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonEthnicAppearanceSkinColourList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonGenderCurrentGenderList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonGenderGenderAtRegistrationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonGenderNotesText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonGenderPreferedGenderList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonGenderPreferredGenderList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonGivenNameNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonGivenNameSequenceNumber": {
+			"type": "string"
+		},
+		"npts:PersonGlassesWornGlassesList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonGlassesWornUseList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHabitsAndMannerismsCommentText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHabitsAndMannerismsCorroboratedDate": {
+			"type": "string"
+		},
+		"npts:PersonHabitsAndMannerismsCorroborationDate": {
+			"type": "string"
+		},
+		"npts:PersonHabitsAndMannerismsHabitList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHabitualClothingCorroboratedDate": {
+			"type": "string"
+		},
+		"npts:PersonHabitualClothingCorroborationDate": {
+			"type": "string"
+		},
+		"npts:PersonHabitualClothingDescriptionText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHairColourDyedColourList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHairColourGreyOrDyedList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHairColourNaturalColourList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHairCorroboratedDate": {
+			"type": "string"
+		},
+		"npts:PersonHairCorroborationDate": {
+			"type": "string"
+		},
+		"npts:PersonHairFeatureDescriptionText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHairFeatureFeatureList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHairHairList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHairNotesText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHairPositionList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHealthAssessmentEndDate": {
+			"type": "string"
+		},
+		"npts:PersonHealthAssessmentStartDate": {
+			"type": "string"
+		},
+		"npts:PersonHealthCarerDetailText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHealthIllnessList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHealthIllnessText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHealthMedicationMedicationEndDate": {
+			"type": "string"
+		},
+		"npts:PersonHealthMedicationMedicationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHealthMedicationMedicationStartDate": {
+			"type": "string"
+		},
+		"npts:PersonHealthMedicationMedicationText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHealthNHSNumberText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonHealthTreatmentText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonIdentityNumberCorroboratedDate": {
+			"type": "string"
+		},
+		"npts:PersonIdentityNumberCorroboratedStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonIdentityNumberCorroborationDate": {
+			"type": "string"
+		},
+		"npts:PersonIdentityNumberCorroborationLevelList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonIdentityNumberCountryOfIssueList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonIdentityNumberIdentityNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonIdentityNumberIssuingCountryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonIdentityNumberIssuingOfficeNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonIdentityNumberKnownFalseInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonIdentityNumberNumberList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonIdentityNumberValidFromDate": {
+			"type": "string"
+		},
+		"npts:PersonIdentityNumberValidToDate": {
+			"type": "string"
+		},
+		"npts:PersonJewelleryWornBodyPartList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonJewelleryWornBodyPositionList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonJewelleryWornDescriptionText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonJewelleryWornJewelleryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLanguageCompetencyList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLanguageDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLanguageLanguageList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLanguageSpokenOrWrittenList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLifeCircumstancesAdditionalNotesText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLifeCircumstancesFaithList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLifeCircumstancesFinancialCommitmentsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLifeCircumstancesHomeConditionText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLifeCircumstancesIncomeDetailsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLifeCircumstancesMaritalStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLifeCircumstancesMartialStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLifeCircumstancesMedicalHistoryText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLifeCircumstancesSpecialNeedsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLifestyleHobbyDescriptionText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLifestyleHobbyEndDate": {
+			"type": "string"
+		},
+		"npts:PersonLifestyleHobbyHobbyNameText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonLifestyleHobbyStartDate": {
+			"type": "string"
+		},
+		"npts:PersonLocationReasonList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonNationalityAcquiredDate": {
+			"type": "string"
+		},
+		"npts:PersonNationalityAcquisitionMethodList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonNationalityAsylumStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonNationalityCountryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonNationalityNaturalisedDate": {
+			"type": "string"
+		},
+		"npts:PersonNationalityPreviousCountryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonNicknameNicknameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationCorroboratedDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationCorroboratedStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationCorroborationDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationCorroborationStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationEducationInstituteClassificationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationEducationInstituteNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationEducationLearningDifficultiesInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationEducationQualificationsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationEducationSpecialSchoolAttendedInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationEmploymentBusinessClassificationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationEmploymentBusinessNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationEmploymentCommentsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationEmploymentEmployerAddressText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryAbsenceArrivalDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryAbsenceCommentsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryAbsenceCountryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryAbsenceDepartureDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryAbsenceDescriptionList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryAbsenceEndDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryAbsenceLocationText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryAbsenceNonOperationalList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryAbsenceStartDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryAbsenceTravelItineraryText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryDeploymentArrivalDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryDeploymentBFPOList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryDeploymentBFPOOtherDetailText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryDeploymentCareerEmploymentGroupText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryDeploymentCommentsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryDeploymentContactDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryDeploymentDepartureDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryDeploymentDeploymentList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryDeploymentEndDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryDeploymentServiceList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryDeploymentStartDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryDeploymentTravelItineraryText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryDeploymentTravelItineryText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryOtherArrivalDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryOtherCommentsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryOtherCountryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryOtherDepartureDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryOtherDescriptionList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryOtherEndDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryOtherLocationText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryOtherNonOperationalList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryOtherStartDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryOtherTravelItineraryText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryPostingCareerEmploymentGroupText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryPostingCommentsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryPostingEndDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryPostingRankList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryPostingServiceList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryPostingServiceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryPostingStartDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationMilitaryServiceList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationNotifiableList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationOccupationEndDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationOccupationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOccupationOccupationStartDate": {
+			"type": "string"
+		},
+		"npts:PersonOccupationStatedOccupationText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOrganisationInvolvementInvolvementText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOrganisedCrimeGroupInvolvementCurrentStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOrganisedCrimeGroupInvolvementIndividualsMotivationList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOrganisedCrimeGroupInvolvementOrganisationalStandingList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonOrganisedCrimeGroupInvolvementOtherDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonPhraseCircumstancesText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonPhraseLocationText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonPhrasePhraseUsedText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonPhraseUsedDateTime": {
+			"type": "string"
+		},
+		"npts:PersonPreferredLanguageDetailsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonPreferredLanguageLanguageList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonPreferredLanguageSpokenOrWrittenList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonRelationshipReasonList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonSelfDefinedEthnicity16PointList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonSelfDefinedEthnicityEthnicAppearance16PointCodeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonSelfDefinedEthnicityReasonNotStatedList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonSelfDefinedEthnicitySixteenPlusOnePointList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonSexualitySexualityList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonSkillOrKnowledgeCorroboratedDate": {
+			"type": "string"
+		},
+		"npts:PersonSkillOrKnowledgeCorroborationDate": {
+			"type": "string"
+		},
+		"npts:PersonSkillOrKnowledgeDetailsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonSpeechAccentAccentList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonSpeechAccentList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonSpeechAccentQualifierText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonSpeechPhraseUsedCircumstancesText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonSpeechPhraseUsedLocationText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonSpeechPhraseUsedText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonSpeechPhraseUsedUsedDateTime": {
+			"type": "string"
+		},
+		"npts:PersonSpeechPitchList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonSpeechQualifierText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonStructuredNameCorroborationLevelList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonStructuredNameFamilyNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonStructuredNameFullNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonStructuredNameInitialsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonStructuredNameNameNumber": {
+			"type": "string"
+		},
+		"npts:PersonStructuredNameSuffixText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonStructuredNameTitleText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonStructuredNameUsageList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonSuffixDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTitleTitleList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyAccompanimentCommentsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyAccompanimentNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyAccompanimentOtherNamesText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyAccompanimentPersonRelationshipList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyActualDepartureDate": {
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyActualReturnDate": {
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyBookingDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyCarrierNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyDepartureDate": {
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyDeparturePointText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyDestinationNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyInitialNotificationDate": {
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyIntendedDepartureDate": {
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyIntendedReturnDate": {
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyLegArrivalDate": {
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyLegArrivalPointText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyLegCarrierNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyLegCommentsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyLegCountryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyLegFirstNightAccommodationDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyLegFirstNightAccomodationDetailsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyMethodCarrierIdentifierText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyMethodOfTravelToDeparturePointText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyReasonForTravelText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyReturnPointText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyTravelMeansText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonTravelJourneyTravelReasonText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonUKEntryArrivalModeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonUKEntryArrivalPlaceNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonUKEntryCarrierNumberText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonUKEntryDestinationNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonUKEntryEUFirstEntryDate": {
+			"type": "string"
+		},
+		"npts:PersonUKEntryEUFirstEntryPlaceNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonUKEntryFirstEntryDate": {
+			"type": "string"
+		},
+		"npts:PersonUKEntryImmigrationStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonUKEntryLandingCodeText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonUKEntryLastEntryDate": {
+			"type": "string"
+		},
+		"npts:PersonUKEntrySourceCountryList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonVulnerabilityDetailsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PersonVulnerabilityList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PlantList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PointOfContactNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PreCourtOffenceDisposalBirthDateUsedText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PreCourtOffenceDisposalConditionCompletedDate": {
+			"type": "string"
+		},
+		"npts:PreCourtOffenceDisposalConditionComplianceDate": {
+			"type": "string"
+		},
+		"npts:PreCourtOffenceDisposalConditionComplianceDateTime": {
+			"type": "string"
+		},
+		"npts:PreCourtOffenceDisposalConditionDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PreCourtOffenceDisposalDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PreCourtOffenceDisposalDisposedDateTime": {
+			"type": "string"
+		},
+		"npts:PreCourtOffenceDisposalMethodList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PreCourtOffenceDisposalNameUsedText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PreCourtOffenceDisposalOffenceSequenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PreCourtOffenceDisposalRehabilitationFailureContactAddressText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PreCourtOffenceDisposalRehabilitationFailureContactNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PreCourtOffenceDisposalRehabilitationFailureContactTelephoneText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PreCourtOffenceDisposalRehabilitationFailureRecordedDateTime": {
+			"type": "string"
+		},
+		"npts:PrimaryObjectPropertyPNCIDNumber": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PrimaryOrganisationPNCIDNumber": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PrimaryPersonCRONumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PrimaryPersonPNCIDNumber": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PrimaryPersonPNDIDNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PrimaryRecordGPMSList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PrimaryRecordHandlingInstructionsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PrimaryRecordID": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PrimaryRecordPNDIdNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PrimaryRecordPrimaryRecordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:PrimaryRecordRecordList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RankGradeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordCreatedDateTime": {
+			"type": "string"
+		},
+		"npts:RecordHandlingList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionClassGPMSList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionClassHandlingInstructionsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionClassHandlingList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionClassHandlingUserGroupText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionContextForceAgencyList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionContextForceAgencySystemNameText": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionDetailsText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionForceAgencyList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionForceAgencySystemNameText": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionForceInternalSystemNumber": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionHandlingUserGroupText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionLastUpdatedByNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionLastUpdatedDateTime": {
+			"type": "string"
+		},
+		"npts:RecordVersionOriginatingUnitNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionRecordContextTypeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionRecordTypeList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RecordVersionReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ReferralDirectionList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ReferralOrNotificationStatusList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ReferralReasonDetailsText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ReferralReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ReferralStartDateTime": {
+			"type": "string"
+		},
+		"npts:RelativeLocationDescriptionText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RelativeLocationDirectionList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RelativeLocationDirectionText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RelativeLocationDistanceText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RelativeLocationHeadingList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RestatedURN": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RiskAssesmentContextAnswerText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RiskAssesmentContextQuestionText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RiskAssessmentContextAnswerText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RiskAssessmentContextQuestionText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RiskAssessmentContextRiskPresentInd": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RiskAssessmentDateTime": {
+			"type": "string"
+		},
+		"npts:RiskAssessmentFactorList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RiskAssessmentPerformedDateTime": {
+			"type": "string"
+		},
+		"npts:RiskAssessmentPersonBirthDateText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RiskAssessmentPersonNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RiskAssessmentSummaryRatingList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RiskMarkerRiskList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:Role": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:RoleList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:SmartCardNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:StaffNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:StreetCrossReferenceNumber": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:TelephoneNumberText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:ToDateTime": {
+			"type": "string"
+		},
+		"npts:UniquePropertyReferenceNumber": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:UserAccessApprovalText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:UserAccessPurposeText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:UserID": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:UserIdentityProofText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:UserNameText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:WarningMarkerWarningList": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:global.Amount": {
+			"type": "number"
+		},
+		"npts:global.CV": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:global.Date": {
+			"type": "string"
+		},
+		"npts:global.Indicator": {
+			"maxLength": 1,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:global.LongText": {
+			"maxLength": 20000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:global.NonStandard": {
+			"maxLength": 200,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:global.Number": {
+			"type": "string"
+		},
+		"npts:global.Quantity": {
+			"maximum": 2147483647,
+			"minimum": -2147483648,
+			"type": "integer"
+		},
+		"npts:global.Value": {
+			"type": "number"
+		},
+		"npts:global.VeryLongText": {
+			"maxLength": 50000,
+			"minLength": 0,
+			"type": "string"
+		},
+		"npts:global.dateTime": {
+			"type": "string"
+		}
+	},
+	"patternProperties": {
+		"^\\?\\w+$": {
+			"type": "string"
+		}
+	},
+	"properties": {
+		"#": {
+			"type": "string"
+		},
+		"@jsonns:npts": {
+			"default": "http://npts.ict.police.uk/core"
+		}
+	},
+	"type": "object"
+}

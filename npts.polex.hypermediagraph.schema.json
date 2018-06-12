@@ -1,0 +1,127 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "POLE Data Exchange HypermediaGraph",
+	"type": "object",
+	"properties": {
+		"label": {
+			"type": "string"
+		},
+		"schema": {
+			"type": "string"
+		},
+		"nodes": {
+			"type": "array",
+			"uniqueItems": true,
+			"items": {
+				"$ref": "#/definitions/Node"
+			}
+		},
+		"edges": {
+			"type": "array",
+			"uniqueItems": true,
+			"items": {
+				"$ref": "#/definitions/Edge"
+			}
+		}
+	},
+	"required": [
+		"label",
+		"nodes",
+		"edges"
+	],
+	"additionalProperties": false,
+	"definitions": {
+		"HypermediaGraphObject": {
+			"type": "object",
+			"properties": {
+				"link": {
+					"$ref": "npts.polex.core.types.schema.json#/definitions/LinkDescriptionObject"
+				},
+				"type": {
+					"type": "string"
+				},
+				"caption": {
+					"type": "string"
+				},
+				"instance": {
+					"$ref": "npts.polex.core.pole.schema.json#/definitions/Individual"
+				}
+			},
+			"required": [
+				"link",
+				"type",
+				"caption"
+			],
+			"additionalProperties": false
+		},
+		"Node": {
+			"type": "object",
+			"additionalProperties": false,
+			"allOf": [
+				{
+					"$ref": "#/definitions/HypermediaGraphObject"
+				},
+				{
+					"type": "object",
+					"properties": {
+						"interval": {
+							"type": "number"
+						},
+						"cluster": {
+							"type": "number"
+						}
+					},
+					"oneOf": [
+						{
+							"$ref": "npts.polex.core.pole.schema.json#/definitions/PoleParty"
+						},
+						{
+							"$ref": "npts.polex.core.pole.schema.json#/definitions/PoleObject"
+						},
+						{
+							"$ref": "npts.polex.core.pole.schema.json#/definitions/PoleLocation"
+						},
+						{
+							"$ref": "npts.polex.core.pole.schema.json#/definitions/PoleEvent"
+						}
+					]
+				}
+			]
+		},
+		"Edge": {
+			"type": "object",
+			"additionalProperties": false,
+			"allOf": [
+				{
+					"$ref": "#/definitions/HypermediaGraphObject"
+				},
+				{
+					"description": "Edge properties",
+					"type": "object",
+					"properties": {
+						"source": {
+							"$ref": "npts.polex.core.types.schema.json#/definitions/LinkDescriptionObject"
+						},
+						"target": {
+							"$ref": "npts.polex.core.types.schema.json#/definitions/LinkDescriptionObject"
+						},
+						"interval": {
+							"type": "number"
+						},
+						"weight": {
+							"type": "number"
+						}
+					},
+					"required": [
+						"source",
+						"target"
+					],
+					"additionalProperties": false
+				},
+				{
+					"$ref": "npts.polex.core.pole.schema.json#/definitions/PoleAssociation"
+				}
+			]
+		}
+	}
+}

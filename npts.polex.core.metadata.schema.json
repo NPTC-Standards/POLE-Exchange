@@ -1,0 +1,42 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "POLE Exchange Metadata",
+	"type": "object",
+	"properties": {
+		"version": {
+			"type": "number"
+		},
+		"currentOwner": {
+			"$ref": "npts.polex.core.types.schema.json#/definitions/LinkDescriptionObject"
+		},
+		"currentTrustee": {
+			"$ref": "npts.polex.core.types.schema.json#/definitions/LinkDescriptionObject"
+		},
+		"policy": {
+			"type": "array",
+			"uniqueItems": true,
+			"items": [
+				{
+					"$ref": "npts.polex.core.types.schema.json#/definitions/PolicyAttribute"
+				}
+			],
+			"additionalItems": false
+		},
+		"redactionMask": {
+			"type": "object"
+		},
+		"derivationHistory": {
+			"type": "array"
+		},
+		"signature": {
+			"type": "object"
+		}
+	},
+	"required": [
+		"version",
+		"currentOwner",
+		"currentTrustee",
+		"policy"
+	],
+	"additionalProperties": false
+}

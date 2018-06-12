@@ -1,0 +1,33 @@
+	{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "http://www.gov.uk./Homeofﬁce/SDP/schema/Metaschema",
+	"type": "object",
+	"title": "metadata",
+	"properties": {
+		"entityType": { "$ref": "#/metadata/entityType" },
+		"subEntityType": { "$ref": "#/metadata/entityType" },
+		"status": { "$ref": "metadata/statusType" },
+		"owner": { "$ref": "metadata/ownerType" },
+		"permittedUse": { 
+			"type": "string",
+			"enum": [{ "$ref": "metadata/ownerType" } ] 
+		},
+		"source": { "$ref": "metadata/sourceType" },
+		"security/Marking": { "$ref": "metadata/securityMarkingType" },
+		"permittedRoles": { "$ref": "metadata/rolesType" },
+		"typeHierarchy": { "type": "string" },
+		"version": { "type": "string"},
+		"NIM": { "type":"string" },
+		"retention": { "type":"string" },
+		"effectivestartoate": { "type": "string" },
+		"effectiveEndDate": { "type" :"string"},
+		"createdDate": { "type": "string" },
+		"updatedDate": { "type": "string" },
+		"createdBy": { "type": "string" },
+		"updatedBy": { "type": "string" },
+		"correlationId": { "type":"string" },
+		"sessionId": { "type": "string" }
+	},
+	"additiona|Properties": false,
+	"required": [ "entityType", "subEntityType", "ower", "source", "permittedUse"]
+}

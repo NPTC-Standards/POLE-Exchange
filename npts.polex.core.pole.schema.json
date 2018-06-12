@@ -1,0 +1,152 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Pole Data Exchange POLE hierarchy",
+	"type": "object",
+	"additionalProperties": false,
+	"oneOf": [
+		{
+			"$ref": "#/definitions/PoleParty"
+		}, {
+			"$ref": "#/definitions/PoleObject"
+		}, {
+			"$ref": "#/definitions/PoleLocation"
+		}, {
+			"$ref": "#/definitions/PoleEvent"
+		}, {
+			"$ref": "#/definitions/PoleAssociation"
+		}
+	],
+	"definitions": {
+		"PoleExchangeInstance": {
+			"type": "object",
+			"properties": {
+				"metaData": {
+					"$ref": "npts.polex.core.metadata.schema.json#"
+				},
+				"version": {
+					"type": "number"
+				},
+				"descriptions": {
+					"type": "array"
+				},
+				"notes": {
+					"type": "array"
+				},
+				"timelinedLinks": {
+					"type": "array",
+					"items": {
+						"$ref": "npts.polex.core.types.schema.json#/definitions/TimelinedCaptionedLDO"
+					}
+				},
+				"supplementalNultimediaLinks": {
+					"type": "array"
+				}
+			},
+			"required": [
+				"metaData", "version", "descriptions", "notes"
+			],
+			"additionalProperties": false
+		},
+		"PoleParty": {
+			"type": "object",
+			"allOf": [
+				{
+					"$ref": "#/definitions/PoleExchangeInstance"
+				}, {
+					"type": "object",
+					"properties": {
+						"biographicIdentity": {
+							"type": "array"
+						},
+						"biographicLocation": {
+							"type": "array"
+						}
+					},
+					"additionalProperties": false
+				}
+			]
+		},
+		"PoleObject": {
+			"type": "object",
+			"allOf": [
+				{
+					"$ref": "#/definitions/PoleExchangeInstance"
+				}, {
+					"type": "object",
+					"additionalProperties": false
+				}
+			]
+		},
+		"PoleLocation": {
+			"type": "object",
+			"allOf": [
+				{
+					"$ref": "#/definitions/PoleExchangeInstance"
+				}, {
+					"type": "object",
+					"additionalProperties": false
+				}
+			]
+		},
+		"PoleEvent": {
+			"type": "object",
+			"allOf": [
+				{
+					"$ref": "#/definitions/PoleExchangeInstance"
+				}, {
+					"type": "object",
+					"additionalProperties": false
+				}
+			]
+		},
+		"PoleAssociation": {
+			"type": "object",
+			"allOf": [
+				{
+					"$ref": "#/definitions/PoleExchangeInstance"
+				}, {
+					"type": "object",
+					"additionalProperties": false
+				}
+			]
+		},
+		"Individual": {
+			"type": "object",
+			"allOf": [
+				{
+					"$ref": "#/definitions/PoleParty"
+				}, {
+					"type": "object",
+					"properties": {
+						"biometricIdentity": {
+							"type": "array"
+						},
+						"biographicDescriptors": {
+							"type": "array"
+						}
+					},
+					"additionalProperties": false
+				}
+			]
+		},
+		"Organisation": {
+			"type": "object",
+			"allOf": [
+				{
+					"$ref": "#/definitions/PoleParty"
+				}, {
+					"type": "object",
+					"properties": {
+						"OrganisationType": {
+							"type": "object"
+						}
+					},
+					"required": [
+						"OrganisationType"
+					],
+					"additionalProperties": false
+				}
+			]
+		}
+	}
+}

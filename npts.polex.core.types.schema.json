@@ -1,0 +1,240 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "NPTS POLE Data Exchange Core Types",
+	"type": "object",
+	"additionalProperties": false,
+	"definitions": {
+		"ISO8601DateTime": {
+			"type": "string"
+		},
+		"ISO8601Date-2004": {
+			"type": "string"
+		},
+		"ISO8601Time": {
+			"type": "string"
+		},
+		"ISO8601Duration": {
+			"type": "string"
+		},
+		"TimespanFuzzy": {
+			"type": "object",
+			"properties": {
+				"startUTCDateTime": {
+					"$ref": "#/definitions/PointInTimeFuzzy",
+					"description": "The start DateTime of the event"
+				},
+				"endUTCDateTime": {
+					"$ref": "#/definitions/PointInTimeFuzzy",
+					"description": "The start DateTime of the event"
+				}
+			},
+			"additionalProperties": false
+		},
+		"TimespanFuzzyStartKnownEnd": {
+			"type": "object",
+			"properties": {
+				"startUTCDateTime": {
+					"$ref": "#/definitions/PointInTimeFuzzy",
+					"description": "The start DateTime of the event"
+				},
+				"endUTCDateTime": {
+					"$ref": "#/definitions/PointInTimeKnown"
+				}
+			},
+			"required": [
+				"startUTCDateTime", "endUTCDateTime"
+			],
+			"additionalProperties": false
+		},
+		"TimespanKnown": {
+			"$ref": "#/definitions/ISO8601Duration"
+		},
+		"TimespanKnownStartFuzzyEnd": {
+			"type": "object",
+			"properties": {
+				"startUTCDateTime": {
+					"$ref": "#/definitions/PointInTimeKnown",
+					"description": "The start DateTime of the event"
+				},
+				"endUTCDateTime": {
+					"$ref": "#/definitions/PointInTimeFuzzy"
+				}
+			},
+			"required": [
+				"startUTCDateTime", "endUTCDateTime"
+			],
+			"additionalProperties": false
+		},
+		"TimespanOpenEnded": {
+			"type": "object",
+			"properties": {
+				"startUTCDateTime": {
+					"$ref": "#/definitions/PointInTimeKnown",
+					"description": "The start DateTime of the event"
+				}
+			},
+			"required": [
+				"startUTCDateTime"
+			],
+			"additionalProperties": false
+		},
+		"TimespanUnknownStartFuzzyEnd": {
+			"type": "object",
+			"properties": {
+				"endUTCDateTime": {
+					"$ref": "#/definitions/PointInTimeFuzzy"
+				}
+			},
+			"required": [
+				"endUTCDateTime"
+			],
+			"additionalProperties": false
+		},
+		"TimespanUnknownStartKnownEnd": {
+			"type": "object",
+			"properties": {
+				"endUTCDateTime": {
+					"$ref": "#/definitions/PointInTimeKnown"
+				}
+			},
+			"required": [
+				"endUTCDateTime"
+			],
+			"additionalProperties": false
+		},
+		"PointInTimeFuzzy": {
+			"type": "object",
+			"properties": {
+				"dateTimeUTC": {
+					"$ref": "#/definitions/ISO8601DateTime"
+				},
+				"marginOfError": {
+					"type": "number"
+				},
+				"marginUnits": {
+					"$ref": "#/definitions/UnitOfTime"
+				}
+			},
+			"required": [
+				"dateTimeUTC", "marginOfError"
+			],
+			"additionalProperties": false
+		},
+		"PointInTimeKnown": {
+			"type": "object",
+			"properties": {
+				"dateTimeUTC": {
+					"$ref": "#/definitions/ISO8601DateTime"
+				}
+			},
+			"required": [
+				"dateTimeUTC"
+			],
+			"additionalProperties": false
+		},
+		"Timeline": {
+			"type": "object",
+			"additionalProperties": false,
+			"oneOf": [
+				{
+					"$ref": "#/definitions/DurationFuzzy"
+				}, {
+					"$ref": "#/definitions/DurationFuzzyStartKnownEnd"
+				}, {
+					"$ref": "#/definitions/DurationKnown"
+				}, {
+					"$ref": "#/definitions/DurationKnownStartFuzzyEnd"
+				}, {
+					"$ref": "#/definitions/DurationOpenEnded"
+				}, {
+					"$ref": "#/definitions/DurationUnknownStartFuzzyEnd"
+				}, {
+					"$ref": "#/definitions/DurationUnknownStartKnownEnd"
+				}
+			]
+		},
+		"Time": {
+			"type": "string",
+			"enum": [
+				"millisecond", "second", "minute", "hour", "day", "week", "month", "year"
+			]
+		},
+		"LinkDescriptionObject": {
+			"title": "Link Description Object",
+			"type": "object",
+			"properties": {
+				"href": {
+					"description": "a URI template, as defined by RFC 6570, with the addition of the $, ( and ) characters for pre-processing",
+					"type": "string"
+				},
+				"rel": {
+					"description": "relation to the target resource of the link",
+					"type": "string"
+				},
+				"title": {
+					"description": "a title for the link",
+					"type": "string"
+				},
+				"targetSchema": {
+					"description": "JSON Schema describing the link target",
+					"type": "string"
+				},
+				"mediaType": {
+					"description": "media type (as defined by RFC 2046) describing the link target",
+					"type": "string"
+				},
+				"method": {
+					"description": "method for requesting the target of the link (e.g. for HTTP this might be \"GET\" or \"DELETE\")",
+					"type": "string"
+				},
+				"encType": {
+					"description": "The media type in which to submit data along with the request",
+					"type": "string",
+					"default": "application/json"
+				},
+				"schema": {
+					"description": "Schema describing the data to submit along with the request",
+					"type": "string"
+				}
+			},
+			"required": [
+				"href", "rel"
+			]
+		},
+		"URITemplate": {
+			"type": "string"
+		},
+		"TimelinedCaptionedLDO": {
+			"type": "object",
+			"additionalProperties": false,
+			"allOf": [
+				{
+					"$ref": "#/definitions/LinkDescriptionObject"
+				}, {
+					"type": "object",
+					"properties": {
+						"caption": {
+							"type": "string"
+						},
+						"timeline": {
+							"$ref": "#/definitions/Timeline"
+						}
+					},
+					"additionalProperties": false
+				}
+			]
+		},
+		"PolicyAttribute": {
+			"type": "object",
+			"properties": {
+				"policyType": {
+					"$ref": "npts.polex.core.enums.schema.json#/definitions/PolicyType"
+				},
+				"text": {
+					"type": "string"
+				}
+			},
+			"additionalProperties": false
+		}
+	}
+}

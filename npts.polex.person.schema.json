@@ -1,0 +1,16 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Core POLE Person JSON Schema",
+	"oneOf": [
+		{"$ref": "#/definitions/namespace/core/individual"},
+		{"$ref": "#/definitions/namespace/core/organisation"}
+	],
+	"definitions": {
+		"namespace": {
+			"core": {
+				"individual": {},
+				"organisation": {}
+			}
+		}
+	}
+}

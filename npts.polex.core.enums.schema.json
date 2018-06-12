@@ -1,0 +1,18 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "POLE Data Exchange Core Enumerations",
+	"definitions": {
+		"SecurityMarking": {
+			"enum": ["Official","Secret","TopSecret"]
+		},
+		"RetentionAttribute":{
+			"enum": ["Allowed","NotAllowed","FixedTime","Reviewed"]
+		},
+		"HandlingAttribute":{
+			"enum": ["DisturbingImage","ToxicMaterial","Etc"]
+		},
+		"PolicyType":{
+			"enum": ["Rention","Handling","Security"]
+		}
+	}
+}
