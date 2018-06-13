@@ -29,5 +29,5 @@
 		"sessionId": { "type": "string" }
 	},
 	"additiona|Properties": false,
-	"required": [ "entityType", "subEntityType", "ower", "source", "permittedUse"]
+	"required": [ "entityType", "subEntityType", "owner", "source", "permittedUse"]
 }
