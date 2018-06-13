@@ -137,23 +137,23 @@
 			"additionalProperties": false,
 			"oneOf": [
 				{
-					"$ref": "#/definitions/DurationFuzzy"
+					"$ref": "#/definitions/TimespanFuzzy"
 				}, {
-					"$ref": "#/definitions/DurationFuzzyStartKnownEnd"
+					"$ref": "#/definitions/TimespanFuzzyStartKnownEnd"
 				}, {
-					"$ref": "#/definitions/DurationKnown"
+					"$ref": "#/definitions/TimespanKnown"
 				}, {
-					"$ref": "#/definitions/DurationKnownStartFuzzyEnd"
+					"$ref": "#/definitions/TimespanKnownStartFuzzyEnd"
 				}, {
-					"$ref": "#/definitions/DurationOpenEnded"
+					"$ref": "#/definitions/TimespanOpenEnded"
 				}, {
-					"$ref": "#/definitions/DurationUnknownStartFuzzyEnd"
+					"$ref": "#/definitions/TimespanUnknownStartFuzzyEnd"
 				}, {
-					"$ref": "#/definitions/DurationUnknownStartKnownEnd"
+					"$ref": "#/definitions/TimespanUnknownStartKnownEnd"
 				}
 			]
 		},
-		"Time": {
+		"UnitOfTime": {
 			"type": "string",
 			"enum": [
 				"millisecond", "second", "minute", "hour", "day", "week", "month", "year"
