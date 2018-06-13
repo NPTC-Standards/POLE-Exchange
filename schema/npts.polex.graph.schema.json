@@ -1,6 +1,6 @@
 {
+	"$id": "https://standards.police.uk/schemas/hypermediagraph.json",
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"id": "http://npts.police.uk/schemas/hypermediagraph_v0-1.json",
 	"oneOf": [
 		{
 			"type": "object",
