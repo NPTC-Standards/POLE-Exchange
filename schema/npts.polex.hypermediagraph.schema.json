@@ -1,4 +1,5 @@
 {
+	"$id": "http://standards.police.uk/schemas/hypermediagraph.json",
 	"$schema": "http://json-schema.org/draft-04/schema#",
 	"description": "POLE Data Exchange HypermediaGraph",
 	"type": "object",
