@@ -1,0 +1,24 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Comment describing your JSON Schema",
+	"type": "object",
+	"properties": {
+		"BiographicIdentity": {
+			"type": "object",
+			"$ref": "#/definitions/BiographicDescriptor"
+		}
+	},
+	"additionalProperties": false,
+	"definitions": {
+		"BiographicIdentity": {
+			"type": "object",
+			"properties": {
+				"timeline": {
+					"type": "object",
+					"$ref": "npts.polex.core.types.schema.json#/definitions/Timeline"
+				}
+			},
+			"additionalProperties": false
+		}
+	}
+}
